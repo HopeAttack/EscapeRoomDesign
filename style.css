@@ -1,0 +1,116 @@
+body {
+  color: #cb872b;
+} 
+
+h1{
+  font-size: 90px;
+  color:#cb872b;
+   
+}
+h2 {
+  color:#e9c35b; 
+  
+  font-size: 45px;
+  
+}
+p{
+  
+  color:dark-brown;
+   font-size: 25px;
+}
+
+*{
+  font-family:"Lato", sams-serif;
+  text-align:
+  
+}
+
+a {
+  color:#e9c35b;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+ 
+}
+
+img {
+  
+  height:20%;
+  width:60%;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+  
+#Bible {color : red;}
+
+.btn {
+  border: none;
+  background-color: inherit;
+  font-size: px;
+  cursor: pointer;
+  display: inline-block;
+  
+}
+
+/* On mouse-over */
+.btn:hover {
+  
+  ;
+
+}
+
+.success {color: Yellow;}
+.info {color: dodgerblue;}
+.warning {color: orange;}
+.danger {color: red;}
+.default {color: black;}
+
+.block {
+  display: block;
+  width: 100%;
+  border: none;
+  background-color: #04AA6D;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+}
+
+
+.btn {
+  border: none;
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #e9c35b, 0 0 20px #e9c35b, 0 0 30px #e9c35b, 0 0 40px #e9c35b, 0 0 50px #e9c35b, 0 0 60px #e9c35b, 0 0 70px #e9c35b;
+  }
+  
+  to {
+    text-shadow: 0 0 20px ##e9c35b, 0 0 30px #e9c35b, 0 0 40px #e9c35b, 0 0 50px #e9c35b, 0 0 60px #e9c35b, 0 0 70px #e9c35b, 0 0 80px #e9c35b;
+  
+    
+  }
+  
+  .container {
+  height: 200px;
+  position: relative;
+}
+
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
