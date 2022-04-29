@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - PUZZLE 3</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<body style = "background-color:#341708">
+
+ 
+
+  
+  <!-- -->
+<img src="https://hopeattack.github.io/EscapeRoomDesign/puzzle3.jpg" usemap="#image-map">
+
+<style>
+  
+  .btn {
+  border: none;
+  color: #341708;
+  cursor: pointer;
+  }
+  .btn2 {
+    background-color: #cb872b;
+  border: ;
+  color: #341708;
+  font-size: 25px;
+  cursor: pointer;
+   background_color: #d2b48c;
+  }
+  #FirstVerse {
+  width: 100%;
+  padding: 50px 0;
+  text-align: center;
+  background-color: lightblue;
+  margin-top: 20px;
+    
+}
+
+}
+  
+.btn:hover {background: "#e9c35b";}
+.success {background-color: #e9c35b ;} /* Green */
+.success:hover {background-color:#cb872b ;}
+</style>
+  
+  
+  
+
+<div class="letter">
+
+<h1  style= text-align:center; > Word Scramble <h1>
+  <h2>
+ <blockquote >  In this challenge you must unscamble the letters to the question being asked to proceed. The Bible verses will provide clues to the answers. 
+   
+</blockquote>
+    </h2>
+  <blockquote> <p>What is the name of the creatures on top of the ark? <button class="btn success" onclick="myFunction() "> Exodus 25:17-19</button></p>
+  
+<div id="FirstVerse" style="background-color:#341708;"><p>
+<span style = "color:red">17 </span>“You shall make a mercy seat of pure gold; two and a half cubits shall be its length and a cubit and a half its width. <span style = "color:red">18</span>And you shall make two cherubim of gold; of hammered work you shall make them at the two ends of the mercy seat. <span style = "color:red">19</span>Make one cherub at one end, and the other cherub at the other end; you shall make the cherubim at the two ends of it of one piece with the mercy seat.</p>
+</div>
+ 
+    
+
+
+
+</div>
+    <div id= spacing>
+    <div id="dropBox" ondragover="dragOver(event);" ondrop="drop(event);" >
+</div>
+
+<!--Create separate span elements for each letter in the word unscramble that are draggable cherubim-->
+<span class = "words"id="dragC" draggable="true" ondragstart="dragStart(event);">C</span>
+<span class = "words" id="dragR" draggable="true" ondragstart="dragStart(event);">R</span>
+  <span class = "words" id="dragM" draggable="true" ondragstart="dragStart(event);">M</span>
+<span class = "words" id="dragB" draggable="true" ondragstart="dragStart(event);">B</span>
+  <span class = "words" id="dragI" draggable="true" ondragstart="dragStart(event);">I</span>
+<span class = "words" id="dragE" draggable="true" ondragstart="dragStart(event);">E</span>
+<span class = "words" id="dragH" draggable="true" ondragstart="dragStart(event);">H</span>
+  <span class = "words" id="dragU" draggable="true" ondragstart="dragStart(event);">U</span>
+  </div>
+
+  <!--Create a button so that they can confirm when they've placed all of their letters, by clicking on the enter button, I want the letters to be displayed in empty paragraph below-->
+  
+<input class="btn2" type='button' onclick='return saveAndDisplay()' value='Enter'/> 
+
+<!--empty paragraph-->
+
+<p id="demo"></p>
+  
+  <!--by clicking on this button, it will check if the text matches the password-->
+  
+  <input href="https://hopeattack.github.io/EscapeRoomDesign/puzzle1.html" class='btn2'type='button'  } onclick=' return checkAnswer()' value='Check Answer'/> 
+
+  </blockquote>
+
+   <h2>Password :<input id="passwordBox2" type="password" style="height:30px; width:160px;"> 
+     
+     
+  <a class="btn success"  onclick="return colorAnswer();" href="https://hopeattack.github.io/EscapeRoomDesign/puzzle4.html" > Next Puzzle</a>
+  </h2>
+  
+  
+</body>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
