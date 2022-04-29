@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Image Puzzle Drag n Drop</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<body style = "background-color:#341708">
+
+
+<img src="https://hopeattack.github.io/EscapeRoomDesign/newpuzzle2.jpg" >
+
+<style>
+.btn {
+   background-color: #cb872b;
+  border: none;
+  color: #341708;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+ .success {background-color: #e9c35b ;} /* Green */
+.success:hover {background-color:#cb872b ;}
+  
+</style>
+  
+  
+  
+
+<div class="letter">
+
+<h1  style= text-align:center; > Picture Puzzle  </h1>
+  <h2>
+ <blockquote >  Acording to <span id="Bible" >Samuel 5:1-4 </span> the Ark of the Covenant made the idol of another god, Dagon, bow before it! For this challenge you must rearagneg the images to recreate that iconic scence. Solve the puzzle by draging the slices of the image to their correct position! 
+</blockquote>
+  </h2>
+  
+  <div style= "text-align:center">
+  
+  <canvas id="canvas" width="600" height="300"/>
+</div>
+  
+   <h2>Password :<input id="passwordBox2" type="password" style="height:30px; width:160px;"> 
+  <a class="btn success"  onclick="return colorAnswer();" href="https://codepen.io/HopeAttack/pen/dyZKoaV"> Next Puzzle</a>
+  </h2>
+  
+</body>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/ocanvas/2.10.0/ocanvas.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>

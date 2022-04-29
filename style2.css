@@ -1,0 +1,155 @@
+body {
+  color: #cb872b;
+} 
+
+h1{
+  font-size: 50px;
+  color:#cb872b;
+   
+}
+h2 {
+  color:#e9c35b; 
+  
+  font-size: 30px;
+}
+pre{
+  
+  color:dark-brown;
+   font-size: 25px;
+}
+
+*{
+  font-family:"Lato", sams-serif;
+  text-align:
+  
+}
+
+a {
+color:red
+}
+
+
+img {
+  
+  height:1162;
+  width:500;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+  
+#Bible {color : red;}
+
+
+
+/* On mouse-over */
+.btn:hover {background: #eee;}
+
+.success {color: Yellow;}
+.info {color: dodgerblue;}
+.warning {color: orange;}
+.danger {color: red;}
+.default {color: black;}
+
+.block {
+  display: block;
+  width: 100%;
+  border: none;
+  background-color: #04AA6D;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+}
+
+
+#Y {
+ 
+  color: black;
+  animation-name: Y;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes Y {
+  from {color: black;}
+  to {color: yellow;}
+}
+
+#a {
+ 
+  color: a;
+  animation-name: a;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+   animation-delay: 4s;
+}
+
+@keyframes a {
+  from {color: black;}
+  to {color: yellow;}
+}
+
+#H {
+ 
+  color: H;
+  animation-name: H;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+   animation-delay: 8s;
+}
+
+@keyframes H {
+  from {color: black;}
+  to {color: yellow;}
+}
+
+
+#w {
+ 
+  color: w;
+  animation-name: w;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+   animation-delay: 12s;
+}
+
+@keyframes w {
+  from {color: black;}
+  to {color: yellow;}
+}
+
+#e {
+ 
+  color: e;
+  animation-name: e;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+   animation-delay: 16s;
+}
+
+@keyframes e {
+  from {color: black;}
+  to {color: yellow;}
+}
+
+#h {
+ 
+  color: h;
+  animation-name: h;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+   animation-delay: 20s;
+}
+
+@keyframes h {
+  from {color: black;}
+  to {color: yellow;}
+}
+.btn {
+  border: none;
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+}
