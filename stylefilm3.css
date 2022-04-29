@@ -1,0 +1,34 @@
+@import "https://fonts.googleapis.com/css?family=Playfair+Display:300,400,600,700,900";
+body {
+  font-size: 0.95rem;
+}
+
+h1, h2, h3, h4, h4 {
+  font-family: "Playfair Display", sans-serif;
+  font-weight: 900;
+}
+
+.content:first-letter {
+  float: left;
+  text-transform: uppercase;
+  font-size: 4rem;
+  margin-right: 0.75rem;
+  padding: 0;
+  line-height: 0.9;
+  font-family: "Playfair Display", sansserif;
+  font-weight: 900;
+  postion: absloute;
+}
+
+.ilist-c {
+  filter: none;
+  transition: 0.5s ease;
+}
+.ilist-c:hover {
+  filter: contrast(1.12);
+}
+
+#Pics {
+  width: 100%;
+  height: 100%;
+}
