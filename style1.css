@@ -1,0 +1,57 @@
+body {
+  color: #cb872b;
+} 
+
+h1{
+  font-size: 50px;
+  color:#cb872b;
+   
+}
+h2 {
+  color:#e9c35b; 
+  
+  font-size: 30px;
+}
+pre{
+  
+  color:dark-brown;
+   font-size: 25px;
+}
+
+*{
+  font-family:"Lato", sams-serif;
+  text-align:
+  
+}
+
+a {
+color:red
+}
+
+
+img {
+  
+  height:1162;
+  width:500;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+  
+#Bible {color : red;}
+
+.btn {
+  border: none;
+  background-color: inherit;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.btn {
+  border: none;
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+}
